@@ -1,0 +1,5 @@
+如:建立PopCpp2
+1. 在 github 上面分支 PopCpp2，clone到本地。
+2. 建立本地的项目 PopCpp2-new。
+3. 把 PopCpp2-new 里面的文件拷贝到PopCpp2本地库中。
+4. 把 Classes,Resources，proj.win32 加入到版本控制里面，还有其他自己编辑过的文件需要添加。
