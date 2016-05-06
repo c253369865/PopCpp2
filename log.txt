@@ -3,3 +3,8 @@
 2. 建立本地的项目 PopCpp2-new。
 3. 把 PopCpp2-new 里面的文件拷贝到PopCpp2本地库中。
 4. 把 Classes,Resources，proj.win32 加入到版本控制里面，还有其他自己编辑过的文件需要添加。
+
+使用PopCpp2
+1. 把PopCpp2clone到本地。
+2. 建立本地的项目 PopCpp2-new。
+3. 把 PopCpp2-new 里面的文件拷贝到PopCpp2本地库中，除了Classes,Resources，proj.win32等自己定义的文件，文件夹。

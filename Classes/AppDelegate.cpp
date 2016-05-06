@@ -1,4 +1,5 @@
 #include "AppDelegate.h"
+#include "HelloWorldScene.h"
 #include "util/LayerUtil.h"
 #include "layer/StartLayer.h"
 

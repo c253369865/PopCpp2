@@ -10,6 +10,33 @@
     <Filter Include="src">
       <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\base">
+      <UniqueIdentifier>{e508c750-1b7a-4ba1-9e1f-1012bf5da907}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\layer">
+      <UniqueIdentifier>{e4f6766a-80a0-4e09-8d01-7f74720211b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\logic">
+      <UniqueIdentifier>{ad7517be-87bd-45a7-b44e-01bb1ea3af3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\mgr">
+      <UniqueIdentifier>{3847bc79-5d10-49cd-8f1a-2e317658541b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\star">
+      <UniqueIdentifier>{6bd88067-b2eb-46f2-ba5a-fb4f311f42ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\util">
+      <UniqueIdentifier>{c8c578f3-4c3d-464a-b7fd-f51af08235f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\fonts">
+      <UniqueIdentifier>{da753281-e459-45dd-8512-9d81237419c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\res">
+      <UniqueIdentifier>{dc8adce9-e55e-4ec2-83c1-4934550d3c27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="resource\star">
+      <UniqueIdentifier>{69f80911-d928-4515-8f6b-ad589b8909e6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -20,6 +47,48 @@
     </ClCompile>
     <ClCompile Include="..\Classes\HelloWorldScene.cpp">
       <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisibleRect.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\BaseLayer.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\BaseSprite.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\base\BaseStar.cpp">
+      <Filter>src\base</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\PlayLayer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\PlayUILayer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\StarLayer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\StartLayer.cpp">
+      <Filter>src\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\logic\PlayLogic.cpp">
+      <Filter>src\logic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\mgr\PlayMgr.cpp">
+      <Filter>src\mgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\star\SimpleStar.cpp">
+      <Filter>src\star</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\star\StarComNode.cpp">
+      <Filter>src\star</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\util\LayerUtil.cpp">
+      <Filter>src\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\util\LogUtil.cpp">
+      <Filter>src\util</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -32,10 +101,92 @@
     <ClInclude Include="..\Classes\HelloWorldScene.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="..\Classes\Constants.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisibleRect.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\BaseLayer.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\BaseSprite.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\base\BaseStar.h">
+      <Filter>src\base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\PlayLayer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\PlayUILayer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\StarLayer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\StartLayer.h">
+      <Filter>src\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\logic\PlayLogic.h">
+      <Filter>src\logic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\mgr\PlayMgr.h">
+      <Filter>src\mgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\star\SimpleStar.h">
+      <Filter>src\star</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\star\StarComNode.h">
+      <Filter>src\star</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\util\LayerUtil.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\util\LogUtil.h">
+      <Filter>src\util</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="game.rc">
       <Filter>resource</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </Image>
+    <Image Include="..\Resources\star\star_1.png">
+      <Filter>resource\star</Filter>
+    </Image>
+    <Image Include="..\Resources\star\star_2.png">
+      <Filter>resource\star</Filter>
+    </Image>
+    <Image Include="..\Resources\star\star_3.png">
+      <Filter>resource\star</Filter>
+    </Image>
+    <Image Include="..\Resources\star\star_4.png">
+      <Filter>resource\star</Filter>
+    </Image>
+    <Image Include="..\Resources\star\star_5.png">
+      <Filter>resource\star</Filter>
+    </Image>
+    <Image Include="..\Resources\star\star_6.png">
+      <Filter>resource\star</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\Resources\fonts\arial.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
+    <Font Include="..\Resources\fonts\Marker Felt.ttf">
+      <Filter>resource\fonts</Filter>
+    </Font>
   </ItemGroup>
 </Project>
